@@ -126,7 +126,7 @@
             <div class="flex  items-center mx-auto ">
        
               <img src="images/seat-green-filled.png" alt="">
-              <span class="text-[#1DD100] text-base font-medium">40 Seats left</span>
+              <span class="text-[#1DD100] text-base font-medium" > <span id="totalseat" class=" text-[#1DD100]"></span> Seats left</span>
 
 
             
@@ -207,74 +207,74 @@
           </div>
          
             <ul class="flex items-center justify-between mt-14 gap-3 py-3">
-              <li><button class="text-center w-20  h-14 text-base font-medium">A</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">A1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">A2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">A3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">A4</button></li>
+              <li><button  class="text-center w-20  h-14 text-base font-medium">A</button></li>
+              <li><button onclick="seatBook()" id="A1" class="btn  w-28 h-14  text-center text-base font-medium">A1</button></li>
+              <li><button onclick="seatBook()"  class="btn w-28 h-14 text-center text-base font-medium">A2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">A3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">A4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
-              <li><button class="text-center w-20  h-14 text-base font-medium">B</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">B1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">B2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">AB3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">B4</button></li>
+              <li><button  class="text-center w-20  h-14 text-base font-medium">B</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">B1</button></li>
+              <li><button onclick="seatBook()"class="btn w-28 h-14 text-center text-base font-medium">B2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">AB3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">B4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
-              <li><button class="text-center w-20  h-14 text-base font-medium">C</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">C1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">C2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">C3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">C4</button></li>
+              <li><button  class="text-center w-20  h-14 text-base font-medium">C</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">C1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">C2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">C3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">C4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">D</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">D1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">D2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">D3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">D4</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">D1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">D2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">D3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">D4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">E</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">E1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">E2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">E3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">E4</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">E1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">E2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">E3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">E4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">F</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">F1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">F2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">F3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">F4</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">F1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">F2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">F3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">F4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">G</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">G1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">G2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">G3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">G4</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">G1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">G2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">G3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">G4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">H</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">H1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">H2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">H3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">H4</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">H1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">H2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">H3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">H4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">I</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">I1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">I2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">I3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">I4</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14  text-center text-base font-medium">I1</button></li>
+              <li><button onclick="seatBook()"  class="btn w-28 h-14 text-center text-base font-medium">I2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">I3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">I4</button></li>
             </ul>
             <ul class="flex items-center justify-between gap-3 py-3">
               <li><button class="text-center w-20  h-14 text-base font-medium">J</button></li>
-              <li><button class="btn w-28 h-14  text-center text-base font-medium">J1</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">J2</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">J3</button></li>
-              <li><button class="btn w-28 h-14 text-center text-base font-medium">J4</button></li>
+              <li><button onclick="seatBook()" id="seatnum" class="btn w-28 h-14  text-center text-base font-medium">J1</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">J2</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">J3</button></li>
+              <li><button onclick="seatBook()" class="btn w-28 h-14 text-center text-base font-medium">J4</button></li>
             </ul>
           
           
@@ -288,17 +288,19 @@
             <div class="flex justify-between ">
               <p class="text-base font-medium">Seat <span class="text-[#1DD100]"></span></p> 
               <p class="text-base font-medium">Class</p>
-              <p class="text-base font-medium">Price</p>
+              <p class="text-base font-medium" >Price</p>
             </div>
-            <ul class="flex justify-between py-3">
-              <li><a href="" class="text-base font-medium">CA</a></li>
+            <ul class="flex justify-between py-3" id="seatcreate">
+
+                <li><a href="" class="text-base font-medium" id="Serialnumber">CA</a></li>
               <li><a href="" class="text-base font-medium">Ecomice</a></li>
-              <li><a href="" class="text-base font-medium"></a>500</li>
+              <li><a href="" class="text-base font-medium" id="price"></a></li>
+
             </ul>
             <hr>
             <ul class="flex justify-between py-3">
-              <li><span  class="text-base font-medium">Total</span></li>
-              <li><span  class="text-base font-medium">price:</span></li>
+              <li><span  class="text-base font-medium" >Total</span></li>
+              <li><span  class="text-base font-medium" id="total"></span></li>
             </ul>
             <ul class="flex justify-between py-3">
               <input type="text" class="text-base font-medium w-80 bg-gray-50 disabled:">
@@ -307,14 +309,15 @@
             </ul>
             <ul class="flex justify-between py-5">
               <li><span  class="text-base font-medium">Grand Total</span></li>
-              <li><span  class="text-base font-medium">price:</span></li>
+              <li><span  class="text-base font-medium" id="Grand">price:</span></li>
             </ul>
 
             <div class="form-content">
-              <form action="">
+              <form action="submit.html" onsubmit="submitValidation()">
                 <div class="block p-3">
                   <label for="Passenger" class="py-4 font-semibold text-base ">Passenger Name*</label>
                   <input type="text" id="Passenger" class="w-full mt-4 rounded-lg h-14 font-normal text-base bg-gray-50" placeholder="Enter your name">
+                  <p class="text-red-500" id="alters"></p>
                 </div>
                 <div class="block p-3">
                   <label for="phone" class="py-4 font-semibold text-base">Phone Number* </label>
@@ -324,7 +327,7 @@
                   <label for="email" class=" py-4 font-semibold text-base">Email ID*</label>
                   <input type="text"id="email" class="w-full mt-4 rounded-lg h-14 font-normal text-base bg-gray-50" placeholder="Enter your email">
                 </div>
-                <button class="btn mt-4 w-full h-16 overflow-hidden text-xl  font-semibold bg-[#1DD100] text-[#ffff]">Next</button>
+                <button class="btn mt-4 w-full h-16 overflow-hidden text-xl  font-semibold bg-[#1DD100] text-[#ffff]" type="submit">Next</button>
               </form>
               <div class="flex items-center justify-around mt-8">
                 <a href="" class="text-base border-b-[#030712] text-[#030712] font-normal">Terms and Conditions</a>
